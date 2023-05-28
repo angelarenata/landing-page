@@ -5,7 +5,7 @@ body {
 	height: 100vh;
 }
 
-/* headline */
+/* seção: headline */
 
 header {
     background-color: beige;
@@ -17,6 +17,10 @@ header {
 h1 {
     font-size: 3rem;
     color: black;
+}
+
+.texto-destaca{
+    font-weight: bold;
 }
 
 .titulo-principal {
@@ -53,7 +57,6 @@ h2 {
     border-color: black;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
-    transition: 3s all;
 }
 
 .primeiro-botao {
@@ -66,25 +69,199 @@ h2 {
     background-color: orangered;
     border-radius: 10px;
     cursor: pointer;
-    transition: 6s all;
+    transition: 1.5s all;
     box-shadow: 5px 5px 5px silver;
 }
 
-/* o que é o médodo stc*/
+.primeiro-botao:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
+
+/* seção: o que é o médodo stc*/
 
 .metodo {
-    background-color: sandybrown;
-    text-align: center;
+    background-color: burlywood;
     padding: 60px;
 }
 
 h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 3px black;
 }
+
+.stc {
+    width: 300px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.stc span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.giovanna {
+    float: left;
+    margin: 0.5rem 2rem 2rem 0;
+    border: 2px solid beige;
+    box-shadow: 3px 3px 3px beige;
+    border-radius: 1rem;
+}
+
+.metodo p {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* seção: dos 5 pilares */
 
 .pilares {
     background-color: cadetblue;
     text-align: center;
     padding: 60px;
+}
+
+.lista-pilares {
+    display: flex;  
+    align-items: stretch;
+    max-width: fit-content;
+}
+
+.lista-pilares li {
+    background-color:  beige;
+    border-radius: 1rem;
+    border: 1px solid silver;
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+
+h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.img-pilares {
+    border: 2px solid cadetblue;
+    border-radius: 1rem;
+}
+
+.segundo-botao {
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+    
+.segundo-botao:hover {
+    background-color: red;
+}
+
+/* seção de quem é a mariana*/
+
+.marianna {
+    background-color: burlywood;
+    padding: 60px; 
+}
+
+.historia-marianna {
+  
+}
+
+h5 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 60px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.marianna p {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.img-marianna {
+    float: left;
+    margin: 0 2rem 2rem 0;
+    border: 2px solid beige;
+    box-shadow: 3px 3px 3px beige;
+    border-radius: 1rem;
+}
+
+/* seção de depoimentos */
+
+.depoimentos {
+    background-color: cadetblue;
+    padding: 60px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.depoimentos ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.depoimentos li {
+    width: 40%;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px rgb(110, 181, 184);
+    border-radius: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.nome-cliente {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+.video-depoimento {
+    width: 450px;
+    height: 254px;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px beige;
+    border: 2px solid beige;
+}
+
+.texto-cliente {
+    font-size: 1.5rem;
+    color: wheat;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* seção do valor */
+
+.conversao {
+    background-color: burlywood;
+    padding: 60px;
+}
+
+.conversao p, ul {
+    text-align: center;
 }
